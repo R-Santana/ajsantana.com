@@ -1,0 +1,135 @@
+
+body, h1, h2 , h3, h4, h5, h6, header,footer,p {
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+}
+
+
+
+
+/* 
+==========================================================================
+                              Header start
+========================================================================== */ 
+header, nav, footer, section, img{ 
+  background:black;
+  margin: 0 ; padding: 0 ; 
+  display: inline-block ; 
+}
+header{
+border-bottom:1px solid gray;
+width:100%;
+text-align: center;
+color:white;
+  }
+
+ /*                         Header - left img
+}
+========================================================================== */
+#titlePic {
+  max-width: 20% ;
+  margin: 0 ;
+  display: inline-block;
+}      
+/*                          Header- section
+========================================================================== */
+section {
+  color:black;
+  line-height: 36px;
+ 	max-width: 100%;
+  margin:0 ;
+  text-align: center;
+  background:lightgray;
+}
+
+/*                           Header- nav
+========================================================================== */
+nav {
+  width:100%; 
+  font-size: 1.75em; 
+  background:linear-gradient(white,lightgray);
+  font-family: 'Lobster', cutsive;
+
+
+}
+nav ul{
+  list-style: none;
+  margin: 0; 
+  padding:0;
+}
+nav li{
+  display: inline-block;
+}
+li a {
+  color:gray ;
+  text-decoration: none; 
+  margin: 0 50px;
+}
+li a:hover{
+  color:black;
+}
+
+/*                         Header- right img
+========================================================================== */
+#Sham{
+  max-width: 20% ; 
+  margin: 0 ; 
+  float: right; 
+
+}
+
+/* 
+   
+==========================================================================
+                              Header end
+========================================================================== */
+main{
+  text-align: center;
+}
+
+
+
+
+#vids{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+iframe{
+  width:560px;
+  height: 315px;
+}
+
+
+/* 
+==========================================================================
+                             Footer start
+========================================================================== */
+footer{
+	  background:linear-gradient(white,lightgray,gray);
+    width: 100%;
+
+}
+footer ul , footer li{
+  list-style: none;
+    display: inline-block;
+
+}
+ 
+#copyRite{
+  font-size: .75em;
+}
+
+
+
+
+
+
+
+/* 
+==========================================================================
+                             Footer end
+========================================================================== */
